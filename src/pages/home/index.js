@@ -1,7 +1,11 @@
 import React from 'react';
+import Header from "../../components/Header";
 
 function Home() {
-    return <h1>Conecta DEV</h1>
+    return <div>
+        <Header></Header>
+        <main></main>
+    </div>
 }
 
 export default Home;

@@ -6,13 +6,17 @@ export default class App extends React.Component{
     render() {
         return (
             <div>
-                <h1>Ola</h1>
-                <Post title='Teste de titulo'/>
-                <Post title='Teste de mais um titulo'/>
-                <Post title='Teste de mais um titulo2'/>
-
-                <Home></Home>
+                <header>Teste1</header>
+                <main>Teste2</main>
             </div>
+            // <div>
+            //     <h1>Ola</h1>
+            //     <Post title='Teste de titulo'/>
+            //     <Post title='Teste de mais um titulo'/>
+            //     <Post title='Teste de mais um titulo2'/>
+            //
+            //     <Home></Home>
+            // </div>
         );
     }
 }
