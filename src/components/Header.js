@@ -1,9 +1,7 @@
 import React from "react";
 
 function Header() {
-    return <div className="container">
-        <input type="button" value="Botao" className="btn btn-primary"/>
-    </div>
+    return <div className="container"></div>
 }
 
 export default Header;
