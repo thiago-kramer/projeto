@@ -1,4 +1,6 @@
 import React from "react";
+import GitLogo from '../../assets/img/icons/common/github.svg';
+import GoogleLogo from '../../assets/img/icons/common/google.svg';
 
 const Login = () => {
     return (
@@ -31,11 +33,11 @@ const Login = () => {
                                     </div>
                                     <div className="btn-wrapper text-center">
                                         <a href="#pablo" className="btn-neutral btn-icon btn btn-default">
-                                            <span className="btn-inner--icon"><img alt="..." src="github.svg"/></span>
+                                            <span className="btn-inner--icon"><img alt="..." src={GitLogo}/></span>
                                             <span className="btn-inner--text">Github</span>
                                         </a>
                                         <a href="#pablo" className="btn-neutral btn-icon btn btn-default">
-                                            <span className="btn-inner--icon"><img alt="..."src="../../assets/img/icons/common/google.svg"/></span>
+                                            <span className="btn-inner--icon"><img alt="..."src={GoogleLogo}/></span>
                                             <span className="btn-inner--text">Google</span>
                                         </a>
                                     </div>
@@ -50,7 +52,7 @@ const Login = () => {
                                                 <div className="input-group-prepend">
                                                     <span className="input-group-text"><i className="ni ni-email-83"></i></span>
                                                 </div>
-                                                <input placeholder="Email" autoComplete="new-email" type="email" className="form-control"/>
+                                                <input placeholder="User" type="test" className="form-control"/>
                                             </div>
                                         </div>
                                         <div className="form-group">
